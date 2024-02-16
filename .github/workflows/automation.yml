@@ -29,5 +29,4 @@ jobs:
       
       - name: 🚀 Run Automation
         run: python run.py ${{ secrets.READWISE_TOKEN }} ${{ secrets.ZOTERO_KEY }} ${{ secrets.ZOTERO_ID }}
-git commit --allow-empty -m "Trigger automation"
-git push
+
